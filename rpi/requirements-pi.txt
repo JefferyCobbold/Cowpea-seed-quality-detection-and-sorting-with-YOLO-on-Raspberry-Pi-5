@@ -1,0 +1,7 @@
+# Raspberry Pi 5 (Raspberry Pi OS Bookworm, 64-bit)
+# picamera2 and lgpio come from apt:  sudo apt install -y python3-picamera2 python3-lgpio
+# then create the venv with:          python3 -m venv --system-site-packages venv
+ultralytics[export]>=8.3.0
+gpiozero>=2.0
+RPLCD
+smbus2

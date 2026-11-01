@@ -1,0 +1,10 @@
+# Ultralytics dataset config — matches the folder layout created by the training notebook
+path: data            # dataset root (contains train/ and validation/)
+train: train/images
+val: validation/images
+nc: 4
+names:
+  - Broken_Seeds
+  - Damaged_Seeds
+  - Intact_Seeds
+  - Perforated_Seeds
